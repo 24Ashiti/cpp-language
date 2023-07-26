@@ -2,7 +2,7 @@
 using namespace std;
 class solidshape
 {
-    public:
+    public:  
     int test(int a)
     {
         return a*a*a;
