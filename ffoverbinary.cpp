@@ -3,7 +3,7 @@ using namespace std;
 class rect
 {
     int l,b;
-    public:
+    public:  
     void setdata(int,int);
     int getarea()
     {

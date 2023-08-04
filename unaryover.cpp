@@ -14,7 +14,7 @@ class box
     }
     box operator ++(int)
     {
-        box t;
+        box t;98897
         t.l=l++;
         t.b=b++;
         t.h=h++;
