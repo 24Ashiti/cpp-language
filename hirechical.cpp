@@ -2,9 +2,8 @@
 using namespace std;
 class base
 {
-    protected:
-    int i,n;
     public:
+    int i,n;
     void setn()
     {
         cout<<"enter n value:";
@@ -14,10 +13,9 @@ class base
 class table:public base
 {
     public:
-    int i,j;
     void sett()
     {
-        for(int i=1; i<10; i++)
+        for(int i=1; i<=10; i++)
         {
             cout<<n<<"*"<<i<<":"<<i*n<<endl;
         }
@@ -26,7 +24,6 @@ class table:public base
 class reverse:public base
 {
     public:
-    int i,j;
     void setr()
     {
         for(int i=n; i>=1; i--)
